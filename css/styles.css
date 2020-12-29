@@ -3,6 +3,7 @@
   --sec-text-color: #ffffff;
   --descrip-text-color: #757575;
   --header-border-bottom: #ececec;
+  --social-links-color: #afb1b8;
 
   --team-backgroundcolor: #f5f4fa;
   --main-backgroundcolor: #ffffff;
@@ -156,14 +157,21 @@ header {
   color: var(--sec-backgroundcolor);
 }
 
-.mail-letter {
-  width: 16px;
-  height: 12px;
+.mail-icon {
+  fill: var(--descrip-text-color);
 
   margin-right: 10px;
+
+  align-items: center;
+}
+
+.mail-icon:hover {
+  fill: currentColor;
 }
 
 .telephone {
+  display: flex;
+
   color: var(--descrip-text-color);
 }
 
@@ -171,7 +179,18 @@ header {
 .telephone:focus {
   color: var(--sec-backgroundcolor);
 }
+
 .hero {
+  display: block;
+  max-width: 1600px;
+  height: 600px;
+
+  background-image: linear-gradient(
+      to top,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../img/Img-min.png");
   background-color: var(--hero-backgroundcolor);
 }
 
@@ -331,6 +350,35 @@ button {
   border-radius: 4px;
 }
 
+.our-description-li::before {
+  display: block;
+  content: "";
+  height: 120px;
+
+  margin-bottom: 30px;
+
+  background-color: var(--team-backgroundcolor);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px 70px;
+}
+
+.antenna::before {
+  background-image: url("../img/SVG/antenna.svg");
+}
+
+.clock::before {
+  background-image: url("../img/SVG/clock.svg");
+}
+
+.diagram::before {
+  background-image: url("../img/SVG/diagram.svg");
+}
+
+.astronaut::before {
+  background-image: url("../img/SVG/astronaut.svg");
+}
+
 .our-description-li:not(:last-child) {
   margin-right: 30px;
 }
@@ -435,6 +483,68 @@ button {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
+}
+
+.team-li {
+  background-color: var(--main-backgroundcolor);
+  height: 428px;
+  width: 270px;
+}
+
+.our-team > ul {
+  margin: 0;
+  padding: 0;
+}
+
+.our-team > li {
+  display: block;
+
+  width: 20px;
+  height: 20px;
+}
+
+.social-links-all {
+  display: flex;
+  align-items: center;
+
+  width: 206px;
+  height: 44px;
+}
+
+.social-links {
+  background-position: center;
+  background-repeat: no-repeat;
+
+  margin: 0;
+  padding: 0;
+}
+
+.instagram {
+  color: var(--social-links-color);
+
+  width: 20px;
+  height: 20px;
+}
+
+.facebook {
+  fill: var(--social-links-color);
+
+  width: 20px;
+  height: 20px;
+}
+
+.twitter {
+  fill: var(--social-links-color);
+
+  width: 20px;
+  height: 20px;
+}
+
+.linkedin {
+  fill: var(--social-links-color);
+
+  width: 20px;
+  height: 20px;
 }
 
 .identification {
