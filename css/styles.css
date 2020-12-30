@@ -451,6 +451,8 @@ button {
 .description-team {
   color: var(--descrip-text-color);
   text-align: center;
+
+  margin-bottom: 16px;
 }
 
 .our-job {
@@ -489,6 +491,9 @@ button {
   background-color: var(--main-backgroundcolor);
   height: 428px;
   width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team > ul {
@@ -511,24 +516,41 @@ button {
   height: 44px;
 }
 
+.social-links-li {
+  display: flex;
+}
+
 .social-links {
+  /* width: 44px;
+  height: 44px;
+  border-radius: 50%; */
+  color: var(--social-links-color);
+  background-color: var(--main-backgroundcolor);
   background-position: center;
   background-repeat: no-repeat;
 
-  margin: 0;
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+
   padding: 0;
+  /* margin-right: 22px; */
+}
+
+.left {
+  margin-left: 50px;
+}
+
+.social-links:hover,
+.social-links:focus {
+  background-color: var(--sec-backgroundcolor);
 }
 
 .instagram {
-  color: var(--social-links-color);
-
-  width: 20px;
-  height: 20px;
-}
-
-.facebook {
   fill: var(--social-links-color);
 
+  margin-top: 12px;
   width: 20px;
   height: 20px;
 }
@@ -538,6 +560,17 @@ button {
 
   width: 20px;
   height: 20px;
+
+  margin-top: 12px;
+}
+
+.facebook {
+  fill: var(--social-links-color);
+
+  width: 20px;
+  height: 20px;
+
+  margin-top: 12px;
 }
 
 .linkedin {
@@ -545,10 +578,75 @@ button {
 
   width: 20px;
   height: 20px;
+
+  margin-top: 12px;
 }
 
 .identification {
   margin-bottom: 10px;
+}
+
+.facebook:hover,
+.instagram:hover,
+.twitter:hover,
+.linkedin:hover {
+  fill: var(--main-backgroundcolor);
+}
+
+.facebook:focus,
+.instagram:focus,
+.twitter:focus,
+.linkedin:focus {
+  fill: var(--main-backgroundcolor);
+}
+
+.our-clients {
+  padding-top: 94px;
+}
+
+.clients {
+  display: flex;
+  display: inline;
+}
+
+.clients-li {
+  display: flex;
+  align-items: center;
+}
+
+.clients-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  width: 170px;
+  height: 90px;
+
+  border: 1px solid var(--social-links-color);
+  border-radius: 4px;
+}
+
+.clients-links:hover,
+.clients-links:focus {
+  border: 1px solid var(--sec-backgroundcolor);
+}
+
+.clients-logo {
+  background-position: center;
+  fill: var(--social-links-color);
+
+  width: 44px;
+  height: 50px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.clients-logo:hover,
+.clients-logo:focus {
+  fill: var(--sec-backgroundcolor);
 }
 
 footer {
