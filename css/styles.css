@@ -602,11 +602,11 @@ button {
 
 .our-clients {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .clients {
   display: flex;
-  display: inline;
 }
 
 .clients-li {
@@ -624,6 +624,8 @@ button {
 
   border: 1px solid var(--social-links-color);
   border-radius: 4px;
+
+  margin-right: 30px;
 }
 
 .clients-links:hover,
@@ -642,6 +644,26 @@ button {
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.logo-1 {
+  width: 44px;
+  height: 49px;
+}
+
+.logo-4 {
+  width: 79px;
+  height: 42px;
+}
+
+.logo-5 {
+  width: 59px;
+  height: 47px;
+}
+
+.logo-6 {
+  width: 88px;
+  height: 45px;
 }
 
 .clients-logo:hover,
@@ -716,4 +738,59 @@ footer {
 .telephone-footer:hover,
 .telephone-footer:focus {
   color: var(--sec-backgroundcolor);
+}
+
+.join-container > ul {
+  display: flex;
+}
+
+.join {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  width: 145px;
+  height: 16px;
+  text-transform: uppercase;
+  color: var(--sec-text-color);
+}
+
+.join-li {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.join-li:hover,
+.join-li:focus {
+  background-color: var(--sec-backgroundcolor);
+}
+
+.join-instagram {
+  width: 20px;
+  height: 20px;
+
+  fill: var(--sec-text-color);
+}
+
+.join-twitter {
+  width: 20px;
+  height: 20px;
+
+  fill: var(--sec-text-color);
+}
+
+.join-facebook {
+  width: 20px;
+  height: 20px;
+
+  fill: var(--sec-text-color);
+}
+
+.join-linkedin {
+  width: 20px;
+  height: 20px;
+
+  fill: var(--sec-text-color);
 }
