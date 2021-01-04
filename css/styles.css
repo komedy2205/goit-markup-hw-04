@@ -155,11 +155,11 @@ header {
 .mail:hover,
 .mail:focus {
   color: var(--sec-backgroundcolor);
+
+  fill: var(--sec-backgroundcolor);
 }
 
 .mail-icon {
-  fill: var(--descrip-text-color);
-
   margin-right: 10px;
 
   align-items: center;
@@ -178,6 +178,8 @@ header {
 .telephone:hover,
 .telephone:focus {
   color: var(--sec-backgroundcolor);
+
+  fill: var(--sec-backgroundcolor);
 }
 
 .hero {
