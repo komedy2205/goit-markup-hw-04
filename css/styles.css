@@ -531,56 +531,41 @@ button {
   background-position: center;
   background-repeat: no-repeat;
 
+  fill: var(--social-links-color);
+
   width: 44px;
   height: 44px;
 
   border-radius: 50%;
 
   padding: 0;
-  /* margin-right: 22px; */
+  margin-right: 10px;
 }
 
 .left {
-  margin-left: 50px;
+  margin-left: 40px;
 }
 
 .social-links:hover,
 .social-links:focus {
   background-color: var(--sec-backgroundcolor);
+
+  fill: var(--main-backgroundcolor);
 }
 
 .instagram {
-  fill: var(--social-links-color);
-
   margin-top: 12px;
-  width: 20px;
-  height: 20px;
 }
 
 .twitter {
-  fill: var(--social-links-color);
-
-  width: 20px;
-  height: 20px;
-
   margin-top: 12px;
 }
 
 .facebook {
-  fill: var(--social-links-color);
-
-  width: 20px;
-  height: 20px;
-
   margin-top: 12px;
 }
 
 .linkedin {
-  fill: var(--social-links-color);
-
-  width: 20px;
-  height: 20px;
-
   margin-top: 12px;
 }
 
@@ -588,11 +573,11 @@ button {
   margin-bottom: 10px;
 }
 
-.facebook:hover,
+/* .facebook:hover,
 .instagram:hover,
 .twitter:hover,
 .linkedin:hover {
-  fill: var(--main-backgroundcolor);
+  
 }
 
 .facebook:focus,
@@ -600,7 +585,7 @@ button {
 .twitter:focus,
 .linkedin:focus {
   fill: var(--main-backgroundcolor);
-}
+} */
 
 .our-clients {
   padding-top: 94px;
@@ -624,6 +609,7 @@ button {
   width: 170px;
   height: 90px;
 
+  fill: var(--social-links-color);
   border: 1px solid var(--social-links-color);
   border-radius: 4px;
 
@@ -641,7 +627,6 @@ button {
 
 .clients-logo {
   background-position: center;
-  fill: var(--social-links-color);
 
   width: 44px;
   height: 50px;
