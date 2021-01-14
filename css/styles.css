@@ -94,7 +94,9 @@ header {
 .nav-links {
   display: block;
   display: flex;
+}
 
+.item {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -500,7 +502,7 @@ button {
 }
 
 .our-team > ul {
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 
@@ -540,11 +542,12 @@ button {
   border-radius: 50%;
 
   padding: 0;
-  margin-right: 10px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .left {
-  margin-left: 40px;
+  margin-left: 10px;
 }
 
 .social-links:hover,
@@ -707,7 +710,7 @@ footer {
   padding-bottom: 0;
 }
 
-.mail-foot {
+.mail-footer {
   margin-bottom: 9px;
 }
 
@@ -759,7 +762,9 @@ footer {
 
   display: flex;
   align-items: center;
+}
 
+.join-li:not(:last-child) {
   margin-right: 10px;
 }
 
