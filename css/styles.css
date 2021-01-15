@@ -523,6 +523,7 @@ button {
 
 .social-links-li {
   display: flex;
+  margin-left: 10px;
 }
 
 .social-links {
@@ -544,10 +545,6 @@ button {
   padding: 0;
   margin-right: auto;
   margin-left: auto;
-}
-
-.left {
-  margin-left: 10px;
 }
 
 .social-links:hover,
