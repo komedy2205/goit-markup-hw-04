@@ -526,6 +526,10 @@ button {
   margin-left: 10px;
 }
 
+.left {
+  margin-left: 0px;
+}
+
 .social-links {
   /* width: 44px;
   height: 44px;
